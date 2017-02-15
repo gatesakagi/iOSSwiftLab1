@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC682F421E54C96000A3595B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC682F411E54C96000A3595B /* MainTableViewController.swift */; };
+		EC682F441E54C97100A3595B /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC682F431E54C97100A3595B /* DetailTableViewController.swift */; };
 		ECF1EF581E54196B0067AB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF1EF571E54196B0067AB67 /* AppDelegate.swift */; };
 		ECF1EF5A1E54196B0067AB67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF1EF591E54196B0067AB67 /* ViewController.swift */; };
 		ECF1EF5D1E54196B0067AB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF1EF5B1E54196B0067AB67 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC682F411E54C96000A3595B /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		EC682F431E54C97100A3595B /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		ECF1EF541E54196B0067AB67 /* iosSwiftLab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosSwiftLab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF1EF571E54196B0067AB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF1EF591E54196B0067AB67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			children = (
 				ECF1EF571E54196B0067AB67 /* AppDelegate.swift */,
 				ECF1EF591E54196B0067AB67 /* ViewController.swift */,
+				EC682F411E54C96000A3595B /* MainTableViewController.swift */,
+				EC682F431E54C97100A3595B /* DetailTableViewController.swift */,
 				ECF1EF5B1E54196B0067AB67 /* Main.storyboard */,
 				ECF1EF5E1E54196B0067AB67 /* Assets.xcassets */,
 				ECF1EF601E54196B0067AB67 /* LaunchScreen.storyboard */,
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC682F441E54C97100A3595B /* DetailTableViewController.swift in Sources */,
 				ECF1EF5A1E54196B0067AB67 /* ViewController.swift in Sources */,
+				EC682F421E54C96000A3595B /* MainTableViewController.swift in Sources */,
 				ECF1EF581E54196B0067AB67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +312,7 @@
 				ECF1EF681E54196B0067AB67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
