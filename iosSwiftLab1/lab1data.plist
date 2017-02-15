@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>001</key>
+		<dict>
+			<key>auther</key>
+			<string>王之渙</string>
+			<key>title</key>
+			<string>登鸛鵲樓</string>
+			<key>contact</key>
+			<string>白日依山盡\n，黃河入海流。\n欲窮千里目\n，更上一層樓。</string>
+		</dict>
+		<key>002</key>
+		<dict>
+			<key>auther</key>
+			<string>王昌齡</string>
+			<key>title</key>
+			<string>閨怨</string>
+			<key>contact</key>
+			<string>閨中少婦不知愁，\n春日凝妝上翠樓 。\n忽見陌頭楊柳色，\n悔教夫婿覓封侯。</string>
+		</dict>
+	</dict>
+	<dict/>
+	<dict/>
+</array>
+</plist>
