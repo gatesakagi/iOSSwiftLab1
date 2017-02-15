@@ -33,7 +33,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="V7N-Dz-0y5" kind="show" id="eTZ-zo-Dc2"/>
+                                    <segue destination="V7N-Dz-0y5" kind="show" identifier="segueBtn1" id="eTZ-zo-Dc2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5BU-iq-a4v">
@@ -44,7 +44,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="V7N-Dz-0y5" kind="show" id="D2E-aE-Wmj"/>
+                                    <segue destination="V7N-Dz-0y5" kind="show" identifier="segueBtn3" id="D2E-aE-Wmj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hda-hM-Vlv">
@@ -55,7 +55,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="V7N-Dz-0y5" kind="show" id="sPz-p3-Kof"/>
+                                    <segue destination="V7N-Dz-0y5" kind="show" identifier="segueBtn2" id="sPz-p3-Kof"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -72,7 +72,7 @@
         <!--作者-->
         <scene sceneID="TC0-0j-7qC">
             <objects>
-                <tableViewController title="作者" id="Tyw-9e-JxO" sceneMemberID="viewController">
+                <tableViewController title="作者" id="Tyw-9e-JxO" customClass="MainTableViewController" customModule="iosSwiftLab1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="C5v-zc-RM8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
         <!--作品-->
         <scene sceneID="3xg-zt-y6f">
             <objects>
-                <tableViewController id="QzV-pX-Hz7" sceneMemberID="viewController">
+                <tableViewController id="QzV-pX-Hz7" customClass="DetailTableViewController" customModule="iosSwiftLab1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="eu0-ok-uFJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
