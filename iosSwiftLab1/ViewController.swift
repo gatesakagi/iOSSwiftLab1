@@ -46,7 +46,6 @@ class ViewController: UIViewController {
             mainTableVC.destinationArray = readPlist(targetIndex: 2)
             articleTableVC.destinationArray = readPlist(targetIndex: 2)
         }
-        
     }
     
     func readPlist(targetIndex:Int) -> NSMutableArray {
