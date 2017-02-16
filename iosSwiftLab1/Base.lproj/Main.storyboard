@@ -73,13 +73,13 @@
         <!--作者-->
         <scene sceneID="TC0-0j-7qC">
             <objects>
-                <tableViewController title="作者" id="Tyw-9e-JxO" customClass="MainTableViewController" customModule="iosSwiftLab1" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="mainVC" title="作者" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Tyw-9e-JxO" customClass="MainTableViewController" customModule="iosSwiftLab1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="C5v-zc-RM8">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="xjq-sH-rzr">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="mainVC" id="xjq-sH-rzr">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xjq-sH-rzr" id="n6E-JK-ddY">
@@ -87,7 +87,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="iOP-7O-ovt" kind="show" identifier="seguefromMainVC" id="fbL-X1-iQ1"/>
+                                    <segue destination="iOP-7O-ovt" kind="show" identifier="" id="fbL-X1-iQ1"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -150,13 +150,13 @@
         <!--作品-->
         <scene sceneID="3xg-zt-y6f">
             <objects>
-                <tableViewController id="QzV-pX-Hz7" customClass="ArticleTableViewController" customModule="iosSwiftLab1" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="articleVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QzV-pX-Hz7" customClass="MainTableViewController" customModule="iosSwiftLab1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="eu0-ok-uFJ">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="fl6-W9-wdE">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="articleVC" id="fl6-W9-wdE">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fl6-W9-wdE" id="l6X-7G-EHq">
@@ -164,7 +164,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="iOP-7O-ovt" kind="show" identifier="seguefromArticleVC" id="Xwo-te-nx8"/>
+                                    <segue destination="iOP-7O-ovt" kind="show" identifier="" id="Xwo-te-nx8"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -228,7 +228,7 @@
         <image name="tabbar2" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="fbL-X1-iQ1"/>
         <segue reference="eTZ-zo-Dc2"/>
-        <segue reference="Xwo-te-nx8"/>
     </inferredMetricsTieBreakers>
 </document>

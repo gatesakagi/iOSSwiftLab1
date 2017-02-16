@@ -45,12 +45,15 @@ class MainTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-        
+        let strRestorationIdentifier: String! = self.restorationIdentifier
+        let cell = tableView.dequeueReusableCell(withIdentifier: strRestorationIdentifier, for: indexPath)
         let readDict = destinationArray[indexPath.row] as! NSDictionary
-        cell.textLabel?.text = readDict.value(forKey: "auther") as! String?
-        
+        if strRestorationIdentifier == "mainVC" {
+            cell.textLabel?.text = readDict.value(forKey: "auther") as! String?
+            
+        } else if strRestorationIdentifier == "articleVC" {
+            cell.textLabel?.text = readDict.value(forKey: "title") as! String?
+        }
         return cell
     }
 
@@ -58,12 +61,10 @@ class MainTableViewController: UITableViewController {
         
         let detailVC = segue.destination as! DetailViewController
         
-        if segue.identifier == "seguefromMainVC" {
             let selectedCellIndex = tableView.indexPathForSelectedRow?.row
             let readDict = destinationArray[selectedCellIndex!] as! NSDictionary
             detailVC.titleString = readDict.value(forKey: "auther") as! String?
             detailVC.titleLabelString = readDict.value(forKey: "title") as! String?
             detailVC.contentTextViewString = readDict.value(forKey: "content") as! String?
-        }
     }
 }

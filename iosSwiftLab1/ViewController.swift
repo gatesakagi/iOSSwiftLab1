@@ -28,18 +28,21 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let mainTableVC = segue.destination.childViewControllers[0] as! MainTableViewController
-        let articleTableVC = segue.destination.childViewControllers[1] as! ArticleTableViewController
+        let articleTableVC = segue.destination.childViewControllers[1] as! MainTableViewController
 
         if segue.identifier == "segueBtn1" {
             mainTableVC.titleString = "唐詩"
+            articleTableVC.titleString = "唐詩"
             mainTableVC.destinationArray = readPlist(targetIndex: 0)
             articleTableVC.destinationArray = readPlist(targetIndex: 0)
         } else if segue.identifier == "segueBtn2" {
             mainTableVC.titleString = "宋詞"
+            articleTableVC.titleString = "宋詞"
             mainTableVC.destinationArray = readPlist(targetIndex: 1)
             articleTableVC.destinationArray = readPlist(targetIndex: 1)
         } else if segue.identifier == "segueBtn3" {
             mainTableVC.titleString = "元曲"
+            articleTableVC.titleString = "元曲"
             mainTableVC.destinationArray = readPlist(targetIndex: 2)
             articleTableVC.destinationArray = readPlist(targetIndex: 2)
         }
