@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var destinationArray = [String]()
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = true
@@ -17,8 +19,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,15 +27,29 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "segueBtn1" {
+        let mainTableVC = segue.destination.childViewControllers[0] as! MainTableViewController
+        let articleTableVC = segue.destination.childViewControllers[1] as! ArticleTableViewController
 
-            self.tabBarController?.navigationItem.title = "唐詩"
+        if segue.identifier == "segueBtn1" {
+            mainTableVC.titleString = "唐詩"
+            mainTableVC.destinationArray = readPlist(targetIndex: 0)
+            articleTableVC.destinationArray = readPlist(targetIndex: 0)
         } else if segue.identifier == "segueBtn2" {
-            self.tabBarController?.title = "宋詞"
+            mainTableVC.titleString = "宋詞"
+            mainTableVC.destinationArray = readPlist(targetIndex: 1)
+            articleTableVC.destinationArray = readPlist(targetIndex: 1)
         } else if segue.identifier == "segueBtn3" {
-            self.tabBarController?.title = "元曲"
+            mainTableVC.titleString = "元曲"
+            mainTableVC.destinationArray = readPlist(targetIndex: 2)
+            articleTableVC.destinationArray = readPlist(targetIndex: 2)
         }
-        print(segue.identifier)
+        
+    }
+    
+    func readPlist(targetIndex:Int) -> NSMutableArray {
+        let path:String? = Bundle.main.path(forResource: "lab1data", ofType: "plist")
+        let readplistArray = NSMutableArray(contentsOfFile: path!)!
+        return readplistArray[targetIndex] as! NSMutableArray
     }
 }
 

@@ -2,281 +2,251 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<dict>
-		<key>001</key>
+	<array>
 		<dict>
 			<key>auther</key>
 			<string>王之渙</string>
 			<key>title</key>
 			<string>登鸛鵲樓</string>
-			<key>contact</key>
-			<string>白日依山盡\n，黃河入海流。\n欲窮千里目\n，更上一層樓。</string>
+			<key>content</key>
+			<string>白日依山盡，黃河入海流。欲窮千里目，更上一層樓。</string>
 		</dict>
-		<key>002</key>
 		<dict>
 			<key>auther</key>
 			<string>王昌齡</string>
 			<key>title</key>
 			<string>閨怨</string>
-			<key>contact</key>
-			<string>閨中少婦不知愁，\n春日凝妝上翠樓 。\n忽見陌頭楊柳色，\n悔教夫婿覓封侯。</string>
+			<key>content</key>
+			<string>閨中少婦不知愁，春日凝妝上翠樓 。忽見陌頭楊柳色，悔教夫婿覓封侯。</string>
 		</dict>
-		<key>003</key>
 		<dict>
 			<key>auther</key>
 			<string>王維</string>
 			<key>title</key>
 			<string>終南山</string>
-			<key>contact</key>
-			<string>太乙近天都，\n連山接海隅。\n白雲迴望合，\n青靄入看無。\n分野中峰變，\n陰晴眾壑殊。\n欲投人處宿，\n隔水問樵夫。</string>
+			<key>content</key>
+			<string>太乙近天都，連山接海隅。白雲迴望合，青靄入看無。分野中峰變，陰晴眾壑殊。欲投人處宿，隔水問樵夫。</string>
 		</dict>
-		<key>004</key>
 		<dict>
 			<key>auther</key>
 			<string>白居易</string>
 			<key>title</key>
 			<string>宮詞</string>
-			<key>contact</key>
-			<string>淚盡羅巾夢不成，\n夜深前殿按歌聲。\n紅顏未老恩先斷，\n斜倚薰籠坐到明。</string>
+			<key>content</key>
+			<string>淚盡羅巾夢不成，夜深前殿按歌聲。紅顏未老恩先斷，斜倚薰籠坐到明。</string>
 		</dict>
-		<key>005</key>
 		<dict>
 			<key>auther</key>
 			<string>李白</string>
 			<key>title</key>
 			<string>春思</string>
-			<key>contact</key>
-			<string>燕草如碧絲，\n秦桑低綠枝。\n當君懷歸日，\n是妾斷腸時。\n春風不相識，\n何事入羅幃？</string>
+			<key>content</key>
+			<string>燕草如碧絲，秦桑低綠枝。當君懷歸日，是妾斷腸時。春風不相識，何事入羅幃？</string>
 		</dict>
-		<key>006</key>
 		<dict>
 			<key>auther</key>
 			<string>李商隱</string>
 			<key>title</key>
 			<string>錦瑟</string>
-			<key>contact</key>
-			<string>閨中少婦不知愁，\n春日凝妝上翠樓 。\n忽見陌頭楊柳色，\n悔教夫婿覓封侯。</string>
+			<key>content</key>
+			<string>閨中少婦不知愁，春日凝妝上翠樓 。忽見陌頭楊柳色，悔教夫婿覓封侯。</string>
 		</dict>
-		<key>007</key>
 		<dict>
 			<key>auther</key>
 			<string>杜甫</string>
 			<key>title</key>
 			<string>聞官軍收河南河北</string>
-			<key>contact</key>
-			<string>閨中少婦不知愁，\n春日凝妝上翠樓 。\n忽見陌頭楊柳色，\n悔教夫婿覓封侯。</string>
+			<key>content</key>
+			<string>閨中少婦不知愁，春日凝妝上翠樓 。忽見陌頭楊柳色，悔教夫婿覓封侯。</string>
 		</dict>
-		<key>008</key>
 		<dict>
 			<key>auther</key>
 			<string>杜牧</string>
 			<key>title</key>
 			<string>秋夕</string>
-			<key>contact</key>
-			<string>錦瑟無端五十弦，一弦一柱思華年。\n莊生曉夢迷蝴蝶，望帝春心託杜鵑。\n滄海月明珠有淚，藍田日暖玉生煙。\n此情可待成追憶，只是當時已惘然。</string>
+			<key>content</key>
+			<string>錦瑟無端五十弦，一弦一柱思華年。莊生曉夢迷蝴蝶，望帝春心託杜鵑。滄海月明珠有淚，藍田日暖玉生煙。此情可待成追憶，只是當時已惘然。</string>
 		</dict>
-		<key>009</key>
 		<dict>
 			<key>auther</key>
 			<string>孟郊</string>
 			<key>title</key>
 			<string>遊子吟</string>
-			<key>contact</key>
-			<string>慈母手中線，\n遊子身上衣。\n臨行密密縫，\n意恐遲遲歸。\n誰言寸草心，\n報得三春暉。</string>
+			<key>content</key>
+			<string>慈母手中線，遊子身上衣。臨行密密縫，意恐遲遲歸。誰言寸草心，報得三春暉。</string>
 		</dict>
-		<key>010</key>
 		<dict>
 			<key>auther</key>
 			<string>孟浩然</string>
 			<key>title</key>
 			<string>春曉</string>
-			<key>contact</key>
-			<string>春眠不覺曉，\n處處聞啼鳥。\n夜來風雨聲，\n花落知多少。</string>
+			<key>content</key>
+			<string>春眠不覺曉，處處聞啼鳥。夜來風雨聲，花落知多少。</string>
 		</dict>
-	</dict>
-	<dict>
-		<key>001</key>
+	</array>
+	<array>
 		<dict>
 			<key>auther</key>
 			<string>王安石</string>
 			<key>title</key>
 			<string>桂枝香</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>登臨送目。正故國晚秋，天氣初肅。千里澄江似練，翠峰如簇。歸帆去棹殘陽裏，背西風、酒旗斜矗。綵舟雲淡，星河鷺起，畫圖難足。念往昔、繁華競逐。歎門外樓頭，悲恨相續。千古憑高，此謾嗟榮辱。六朝舊事隨流水，但寒煙、芳草凝綠。至今商女，時時猶唱，後庭遺曲。</string>
 		</dict>
-		<key>002</key>
 		<dict>
 			<key>auther</key>
 			<string>王安國</string>
 			<key>title</key>
 			<string>清平樂</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>留春不住，費盡鶯兒語。滿地殘紅宮錦污，昨夜南園風雨。小憐初上琵琶，曉來思繞天涯。不肯畫堂朱戶，春風自在楊花。</string>
 		</dict>
-		<key>003</key>
 		<dict>
 			<key>auther</key>
 			<string>王沂孫</string>
 			<key>title</key>
 			<string>眉嫵·新月</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>漸新痕懸柳，淡彩穿花，依約破初暝。便有團圓意，深深拜，相逢誰在香徑。畫眉未穩，料素娥、猶帶離恨。最堪愛、一曲銀鉤小，寶簾掛秋冷。千古盈虧休問。嘆慢磨玉斧，難補金鏡。太液池猶在，淒涼處、何人重賦清景。故山夜永。試待他、窺戶端正。看雲外山河，還老盡、桂花影。</string>
 		</dict>
-		<key>004</key>
 		<dict>
 			<key>auther</key>
 			<string>史達祖</string>
 			<key>title</key>
 			<string>步月</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>翦柳章臺，問梅東閣，醉中攜手初歸。逗香簾下，璀璨鏤金衣。正依約、冰絲射眼，更荏苒、蟾玉四飛。輕塵外，雙鴛細蹙，誰賦洛濱妃。霏霏。紅霧繞，步搖共鬢影，吹入花圍。管絃將散，人靜燭籠稀。泥私語、香櫻乍破，怕夜寒、羅襪先知。歸來也，相偎未肯入重幃。</string>
 		</dict>
-		<key>005</key>
 		<dict>
 			<key>auther</key>
 			<string>宋祁</string>
 			<key>title</key>
 			<string>好事近</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>睡起玉屏風，吹去亂紅猶落。天氣驟生輕暖，襯沈香帷箔。珠簾約住海棠風，愁拖兩眉角。昨夜一庭明月，冷鞦韆紅索。</string>
 		</dict>
-		<key>006</key>
 		<dict>
 			<key>auther</key>
 			<string>李清照</string>
 			<key>title</key>
 			<string>念奴嬌·春情</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>蕭條庭院，又斜風細雨，重門須閉。寵柳嬌花寒食近，種種惱人天氣。險韻詩成，扶頭酒醒，別是閒滋味。徵鴻過盡，萬千心事難寄。樓上幾日春寒，簾垂四面，玉闌干慵倚。被冷香消新夢覺，不許愁人不起。清露晨流，新桐初引，多少遊春意。日高煙斂，更看今日晴未。</string>
 		</dict>
-		<key>007</key>
 		<dict>
 			<key>auther</key>
 			<string>辛棄疾</string>
 			<key>title</key>
 			<string>水調歌頭·盟鷗</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>帶湖吾甚愛，千丈翠奩開。先生杖屨無事，一日走千回。凡我同盟鷗鳥，今日既盟之後，來往莫相猜。白鶴在何處，嘗試與偕來。破青萍，排翠藻，立蒼苔。窺魚笑汝癡計，不解舉吾杯。廢沼荒丘疇昔。明月清風此夜，人世幾歡哀。東岸綠陰少，楊柳更須栽。</string>
 		</dict>
-		<key>008</key>
 		<dict>
 			<key>auther</key>
 			<string>周邦彥</string>
 			<key>title</key>
 			<string>菩薩蠻·梅雪</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>銀河宛轉三千曲。浴鳧飛鷺澄波綠。何處是歸舟。夕陽江上樓。天憎梅浪發。故下封枝雪。深院捲簾看。應憐江上寒。</string>
 		</dict>
-		<key>009</key>
 		<dict>
 			<key>auther</key>
 			<string>蘇軾</string>
 			<key>title</key>
 			<string>臨江仙·夜飲東坡醒復醉</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>夜飲東坡醒復醉，歸來彷彿三更。家童鼻息已雷鳴。敲門都不應，倚杖聽江聲。長恨此身非我有，何時忘卻營營。夜闌風靜縠紋平。小舟從此逝，江海寄餘生。</string>
 		</dict>
-		<key>010</key>
 		<dict>
 			<key>auther</key>
 			<string>柳永</string>
 			<key>title</key>
 			<string>八聲甘州·對瀟瀟暮雨灑江天</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>對瀟瀟暮雨灑江天，一番洗清秋。漸霜風悽緊，關河冷落，殘照當樓。是處紅衰翠減，苒苒物華休。唯有長江水，無語東流。不忍登高臨遠，望故鄉渺邈，歸思難收。嘆年來蹤跡，何事苦淹留？想佳人，妝樓顒望，誤幾回、天際識歸舟。爭知我，倚欄杆處，正恁凝愁！</string>
 		</dict>
-	</dict>
-	<dict>
-		<key>001</key>
+	</array>
+	<array>
 		<dict>
 			<key>auther</key>
 			<string>關漢卿</string>
 			<key>title</key>
 			<string>四塊玉（閒適）</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>南畝耕。東山臥。世態人情經歷多。閒將往事思量過。賢（的）是他。愚（的）是我。爭什麼。</string>
 		</dict>
-		<key>002</key>
 		<dict>
 			<key>auther</key>
 			<string>白樸</string>
 			<key>title</key>
 			<string>沈醉東風（漁父詞）</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>（黃）蘆岸白蘋渡口。（綠）楊隄紅蓼灘頭。（雖無）刎頸交。（卻有）忘機友。點秋江白鷺沙鷗。傲煞人間萬戶侯。不識字煙波釣叟。</string>
 		</dict>
-		<key>003</key>
 		<dict>
 			<key>auther</key>
 			<string>姚燧</string>
 			<key>title</key>
 			<string>憑闌人（寄征衣）</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>欲寄征衣君不還。不寄征衣君又寒。寄與不寄間。妾身千萬難。</string>
 		</dict>
-		<key>004</key>
 		<dict>
 			<key>auther</key>
 			<string>庾天錫</string>
 			<key>title</key>
 			<string>雁兒落帶得勝令</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>韓侯一將壇。諸葛三分漢。功名紙半張。富貴十年限。 行路古來難。古道近長安。緊把心猿繫。牢將意馬拴。塵寰。倒大無憂患。狼山。白雲相伴閒。</string>
 		</dict>
-		<key>005</key>
 		<dict>
 			<key>auther</key>
 			<string>馬致遠</string>
 			<key>title</key>
 			<string>天淨沙（秋思）</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>枯藤老樹昏鴉。小橋流水平沙。古道西風瘦馬。夕陽西下。斷腸人在天涯。</string>
 		</dict>
-		<key>006</key>
 		<dict>
 			<key>auther</key>
 			<string>滕賓</string>
 			<key>title</key>
 			<string>普天樂</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>淡煙迷。遙山翠。秋天雁唳。夜月猿啼。小徑幽。茅檐僻。秋色南山獨相對。傲西風菊綻東籬。疏林鳥棲。殘霞散綺。歸去來兮。</string>
 		</dict>
-		<key>007</key>
 		<dict>
 			<key>auther</key>
 			<string>鄧玉賓</string>
 			<key>title</key>
 			<string>叨叨令（道情）</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>白雲深處青山下。茅庵草舍無冬夏。閒來幾句漁樵話。困來一枕葫蘆架。（你）省的也麼哥。（你）省的也麼哥。（煞強如）風波千丈擔驚怕。</string>
 		</dict>
-		<key>008</key>
 		<dict>
 			<key>auther</key>
 			<string>元好問</string>
 			<key>title</key>
 			<string>喜春來（春宴）</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>梅擎殘雪芳心奈。柳倚東風望眼開。溫柔尊俎小樓臺。紅袖遶。低唱喜春來。</string>
 		</dict>
-		<key>009</key>
 		<dict>
 			<key>auther</key>
 			<string>王惲</string>
 			<key>title</key>
 			<string>黑漆弩（遊金山寺并序）</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>蒼波萬頃孤岑矗。是一片水面（上）天竺。金鰲頭滿嚥三杯。吸盡江山濃綠。 蛟龍慮恐下然犀。風起浪翻如屋。任夕陽歸棹縱橫。待償我平生不足。</string>
 		</dict>
-		<key>010</key>
 		<dict>
 			<key>auther</key>
 			<string>楊慎</string>
 			<key>title</key>
 			<string>臨江仙</string>
-			<key>contact</key>
+			<key>content</key>
 			<string>滾滾長江東逝水，浪花淘盡英雄。是非成敗轉頭空，青山依舊在，幾度夕陽紅？白髮漁樵江渚上，慣看秋月春風。一壺濁酒喜相逢，古今多少事，都付笑談中。</string>
 		</dict>
-	</dict>
+	</array>
 </array>
 </plist>
