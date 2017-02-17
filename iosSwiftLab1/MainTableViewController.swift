@@ -40,7 +40,7 @@ class MainTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let strRestorationIdentifier: String! = self.restorationIdentifier
-        let cell = tableView.dequeueReusableCell(withIdentifier: strRestorationIdentifier, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "mainCell", for: indexPath)
         let readDict = destinationArray[indexPath.row] as! NSDictionary
         if strRestorationIdentifier == "mainVC" {
             cell.textLabel?.text = readDict.value(forKey: "auther") as! String?
